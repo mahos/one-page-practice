@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: block;
+    overflow: auto;
+    background-color: lightgray;
+    border: 1px solid rgb(73, 73, 73);
+}
+
+nav a {
+    float: left;
+    padding-top: 17px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}  
+
+.sidebar {
+    width: 14%;
+    float: left;
+    background-color: rgb(167, 167, 243);
+    height: 100vh;
+}
+
+
+.pet-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(236, 190, 103);
+}
+
+.pet-info img.headshot {
+    width: 66%;
+    margin: 10px auto 0px;
+}
+
+.pet-stat {
+    padding-left: 10%;
+}
+
+.pet-stat .label {
+
+}
+.pet-stat ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.pet-stat ul li {
+    margin: 5px 0;
+}
+
+.main-content {
+    width: 85%;
+    float: left;
+    background-color: teal;
+    height: 100vh;
+}
+
+.pet-details {
+    border: 1px solid #737373;
+    padding: 15px;
+    height: fit-content;
+    overflow: auto;
+}
+
+.pet-details img.main-image {
+    /* width: 30%; */
+    max-height: 250px;
+    float: left;
+    margin: 10px 15px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.images-container img {
+    width: 25%;
+    margin: 10px 15px;
+}
+
+
+
+
+
+
+
